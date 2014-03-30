@@ -1,0 +1,78 @@
+
+#background {
+   -fx-background-color: #4b4b4b;
+}
+
+#title, #title2 {
+    -fx-font-size: 40pt;
+}
+
+#title2 {
+    -fx-text-fill: #deec51;
+}
+
+#dodge {
+    -fx-background-image: url("../img/dodge.png");
+    -fx-background-repeat: no-repeat;
+    -fx-alignment: bottom_center;
+}
+
+#hand {
+    -fx-background-image: url("../img/hand.png");
+    -fx-background-repeat: no-repeat;
+    -fx-alignment: bottom_center;
+}
+
+#wheel {
+    -fx-background-image: url("../img/wheel.png");
+    -fx-background-repeat: no-repeat;
+    -fx-alignment: bottom_center;
+}
+
+#track {
+    -fx-background-image: url("../img/track.png");
+    -fx-background-repeat: no-repeat;
+    -fx-alignment: bottom_center;
+}
+
+#run {
+    -fx-background-image: url("../img/run.png");
+    -fx-background-repeat: no-repeat;
+    -fx-alignment: bottom_center;
+}
+
+#grab{
+    -fx-background-image: url("../img/grab.png");
+    -fx-background-repeat: no-repeat;
+    -fx-alignment: bottom_center;
+}
+
+#sinuous{
+    -fx-background-image: url("../img/sinuous.png");
+    -fx-background-repeat: no-repeat;
+    -fx-alignment: bottom_center;
+}
+
+#zone{
+    -fx-background-image: url("../img/zone.png");
+    -fx-background-repeat: no-repeat;
+    -fx-alignment: bottom_center;
+}
+
+
+.button {
+    -fx-background-color: #3a3a3a;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 18pt;
+    -fx-text-fill: white;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #3a3a3a;
+    -fx-border-insets: 0 0 1 2;
+}
+
+.label {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.image.*?>
+
+
+<VBox id="background"  xmlns:fx="http://javafx.com/fxml">
+  <stylesheets>
+    <URL value="file:res/css/JMotionStyle.css"/>
+  </stylesheets>
+   	<HBox prefHeight="150" alignment="bottom_center">
+		<Label id="title" text="J"/>
+		<Label id="title2" text="M"/>
+		<Label id="title" text="otion"/>
+	</HBox>
+	<GridPane hgap="20" vgap="20" alignment="center">
+        <Button id="zone" prefHeight="250" prefWidth="350"  GridPane.columnIndex="0" GridPane.rowIndex="0">
+           <text>JZoneMotion</text>
+        </Button>
+        <Button id="grab" prefHeight="250" prefWidth="350"  GridPane.columnIndex="1" GridPane.rowIndex="0">
+           <text>JGrabMotion</text>
+        </Button>
+        <Button id="dodge" prefHeight="250" prefWidth="350"  GridPane.columnIndex="2" GridPane.rowIndex="0">
+           <text>JDodgeMotion</text>
+        </Button>
+        <Button id="run" prefHeight="250" prefWidth="350"  GridPane.columnIndex="0" GridPane.rowIndex="1">
+           <text>JRunMotion</text>
+        </Button>
+        <Button id="hand" prefHeight="250" prefWidth="350"  GridPane.columnIndex="1" GridPane.rowIndex="1">
+           <text>JHandMotion</text>
+        </Button>
+        <Button id="wheel" prefHeight="250" prefWidth="350"  GridPane.columnIndex="2" GridPane.rowIndex="1">
+           <text>JWheelMotion</text>
+        </Button>
+	</GridPane>
+</VBox>
